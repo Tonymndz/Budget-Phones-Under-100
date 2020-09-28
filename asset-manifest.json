@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BestBudgetPhonesUnder100/static/css/main.b5046783.chunk.css",
+    "main.js": "/BestBudgetPhonesUnder100/static/js/main.7973c586.chunk.js",
+    "main.js.map": "/BestBudgetPhonesUnder100/static/js/main.7973c586.chunk.js.map",
+    "runtime-main.js": "/BestBudgetPhonesUnder100/static/js/runtime-main.94892846.js",
+    "runtime-main.js.map": "/BestBudgetPhonesUnder100/static/js/runtime-main.94892846.js.map",
+    "static/js/2.befa45cf.chunk.js": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js",
+    "static/js/2.befa45cf.chunk.js.map": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js.map",
+    "index.html": "/BestBudgetPhonesUnder100/index.html",
+    "precache-manifest.efe1fe9ab26517bae71a15655cdbf0bd.js": "/BestBudgetPhonesUnder100/precache-manifest.efe1fe9ab26517bae71a15655cdbf0bd.js",
+    "service-worker.js": "/BestBudgetPhonesUnder100/service-worker.js",
+    "static/css/main.b5046783.chunk.css.map": "/BestBudgetPhonesUnder100/static/css/main.b5046783.chunk.css.map",
+    "static/js/2.befa45cf.chunk.js.LICENSE.txt": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94892846.js",
+    "static/js/2.befa45cf.chunk.js",
+    "static/css/main.b5046783.chunk.css",
+    "static/js/main.7973c586.chunk.js"
+  ]
+}
