@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/BestBudgetPhonesUnder100/static/css/main.b5046783.chunk.css",
-    "main.js": "/BestBudgetPhonesUnder100/static/js/main.7973c586.chunk.js",
-    "main.js.map": "/BestBudgetPhonesUnder100/static/js/main.7973c586.chunk.js.map",
-    "runtime-main.js": "/BestBudgetPhonesUnder100/static/js/runtime-main.94892846.js",
-    "runtime-main.js.map": "/BestBudgetPhonesUnder100/static/js/runtime-main.94892846.js.map",
-    "static/js/2.befa45cf.chunk.js": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js",
-    "static/js/2.befa45cf.chunk.js.map": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js.map",
-    "index.html": "/BestBudgetPhonesUnder100/index.html",
-    "precache-manifest.efe1fe9ab26517bae71a15655cdbf0bd.js": "/BestBudgetPhonesUnder100/precache-manifest.efe1fe9ab26517bae71a15655cdbf0bd.js",
-    "service-worker.js": "/BestBudgetPhonesUnder100/service-worker.js",
-    "static/css/main.b5046783.chunk.css.map": "/BestBudgetPhonesUnder100/static/css/main.b5046783.chunk.css.map",
-    "static/js/2.befa45cf.chunk.js.LICENSE.txt": "/BestBudgetPhonesUnder100/static/js/2.befa45cf.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.b5046783.chunk.css",
+    "main.js": "/static/js/main.c5c9f3dd.chunk.js",
+    "main.js.map": "/static/js/main.c5c9f3dd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7a80ba0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7a80ba0.js.map",
+    "static/js/2.befa45cf.chunk.js": "/static/js/2.befa45cf.chunk.js",
+    "static/js/2.befa45cf.chunk.js.map": "/static/js/2.befa45cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.314018c9398fba841a7f620e317578ac.js": "/precache-manifest.314018c9398fba841a7f620e317578ac.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b5046783.chunk.css.map": "/static/css/main.b5046783.chunk.css.map",
+    "static/js/2.befa45cf.chunk.js.LICENSE.txt": "/static/js/2.befa45cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.94892846.js",
+    "static/js/runtime-main.c7a80ba0.js",
     "static/js/2.befa45cf.chunk.js",
     "static/css/main.b5046783.chunk.css",
-    "static/js/main.7973c586.chunk.js"
+    "static/js/main.c5c9f3dd.chunk.js"
   ]
 }
