@@ -1,0 +1,61 @@
+.Title h1 {
+  font-size: 2.4em;
+  line-height: 1.18em;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.Title hr {
+  border-top: 1px solid rgb(65, 65, 65);
+  border-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.Title p {
+  color: #fdf4e4;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: 600;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: 7px;
+}
+
+.Title time {
+  font-size: 12px;
+}
+
+.Title img {
+  width: 100%;
+  height: auto;
+}
+
+.Title span {
+  display: block;
+  font-size: 11px;
+  color: #feefd3;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-bottom: 5px;
+  line-height: 1;
+}
+
+.MarginBottom {
+  margin-bottom: 10px;
+}
+
+/*
+29 Samsung Galaxy S7 - $ WIN! 14 vs 14 https://www.ebay.com/itm/Samsung-Galaxy-S7-G930-32GB-Verizon/184461576944?epid=16007504015&hash=item2af2c44af0:g:2~8AAOSw~ddfWCG2
+22 Sprint - LG G5 LS992 - 50$ WIN! 14 vs 9 https://www.ebay.com/itm/Sprint-LG-G5-LS992-Latest-Model-32GB-Gold-Gray-Pink-Silver-Android-Phone/264105445390?epid=1266245777&hash=item3d7de9480e:g:e9AAAOSwrj9dud6v
+19 Samsung Galaxy A6 - 50$ WIN! 19 vs 9 https://www.ebay.com/itm/Unlocked-Samsung-Galaxy-A6-32GB-SM-A600-GSM-AT-T-World-Phone/154103885822?epid=21024608014&hash=item23e14eaffe:g:LpUAAOSwaXRcv5N9
+13 19 Motorola Moto G7 Play - $ WIN! 21 vs 10
+15 Samsung Galaxy A20 - $ WIN! 22 vs 11
+Nokia 3.1 
+
+Samsung Galaxy S7 (2nd)
+https://www.cellularcountry.com/images/Samsung_Galaxy_S7_Edge_32GB_G935A_Android_Smartphone_-_Unlocked_GSM_-_Silver_Titanium_91457.jpg
+*/

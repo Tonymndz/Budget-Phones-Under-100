@@ -1,0 +1,155 @@
+.phoneImg {
+  width: 100%;
+  height: auto;
+}
+
+.buttonFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.Separate {
+  border: 1px dotted rgb(54, 51, 51);
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 615px) {
+#ebayLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 230, 229);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0px 90px 0px 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #91271d;
+  background-color: #9e2d23;
+  text-align: center;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+#specsLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 230, 229);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0px 90px 0px 90px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #91271d;
+  background-color: #9e2d23;
+  text-align: center;
+  transition: 0.3s;
+  white-space: nowrap;
+}}
+
+@media only screen and (max-width: 614px) {
+#ebayLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 230, 229);
+  text-decoration: none;
+  font-size: 80%;
+  padding: 0px 22px 0px 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #91271d;
+  background-color: #9e2d23;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#specsLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(231, 230, 229);
+  text-decoration: none;
+  font-size: 80%;
+  padding: 0px 8px 0px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+  border: 1px solid #91271d;
+  background-color: #9e2d23;
+  text-align: center;
+  transition: 0.3s;
+}}
+
+#specsLink:hover {
+  background-color: #222325;
+  border: 1px solid #91271d;
+}
+
+#ebayLink:hover {
+  background-color: #222325;
+  border: 1px solid #91271d;
+}
+
+/*
+.buttonFlex a:hover {
+  color: #9e2d23;
+  background-color: white;
+  transition: 0.3s;
+} */
+
+.PhoneCards .HrTwo {
+  border-top: 1px solid rgb(65, 65, 65);
+  border-bottom: 0px;
+}
+
+.GoldText {
+  color: #ffd152;
+}
+
+.PhoneCards h2 {
+  font-size: 38px;
+  line-height: 36px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.HrOne {
+  padding-top: 0px;
+  margin-top: 7px;
+  border-bottom: 0px;
+  border-top: 1px solid rgb(65, 65, 65);
+}
+
+#ebayLink img {
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 0px;
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+#specsLink img {
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 1px;
+  margin-right: 5px;
+}

@@ -1,0 +1,17 @@
+.IntroText a {
+  color: rgb(143, 143, 255);
+  transition: 0.3s;
+}
+
+.IntroText p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  margin-top: 1px;
+}
+
+.IntroText a:hover {
+  color: rgb(210, 210, 255);
+  text-decoration: none;
+}
