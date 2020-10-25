@@ -3,9 +3,12 @@ import "./CommentSection.css"
 import { useDispatch, useSelector } from "react-redux";
 import axios from 'axios'
 import { CommentDataStateTypes } from './CommentsReducer';
+import { ReduxStoreReducers } from './HelperFunctions';
+import { UserDataState } from './UserReducer';
 
-export interface commentDataTypes {
+export interface ICommentsData {
   __v: number;
+  username: string;
   comment: string;
   _id: string;
   createdAt: string;
@@ -13,25 +16,16 @@ export interface commentDataTypes {
 }
 
 export interface commentTypes {
+  username: string;
   comment: string;
   dateCreated: string;
 }
 
 let CommentSection = (): JSX.Element => {
-
-  const dispatch = useDispatch()
-  useEffect(() => {
-    (async () => {
-      const response = await axios("https://peaceful-ocean-59292.herokuapp.com/Under100") // Put catch error here later
-      const responseData = response.data;
-      dispatch({ type: "ADD_COMMENTLIST", payload: responseData })
-    })()
-  }, [])
-
-  let commentsData = useSelector<CommentDataStateTypes, CommentDataStateTypes["commentData"]>((state) => state.commentData)
+  let commentsData = useSelector<ReduxStoreReducers, CommentDataStateTypes["commentData"]>(({CommentsReducer}) => CommentsReducer.commentData)
   let CommentsReversedOrder = [...commentsData].reverse()
 
-  let DisplayComments: JSX.Element[] = CommentsReversedOrder.map((CommentInfo) => <Comment key={CommentInfo._id} comment={CommentInfo.comment} dateCreated={CommentInfo.createdAt} />)
+  let DisplayComments: JSX.Element[] = CommentsReversedOrder.map((CommentInfo) => <Comment key={CommentInfo._id} username={CommentInfo.username} comment={CommentInfo.comment} dateCreated={CommentInfo.createdAt} />)
   let amountOfComments = CommentsReversedOrder.length
 
   return <div className="CommentSection">
@@ -43,6 +37,9 @@ let CommentSection = (): JSX.Element => {
 
 
 let SendComment = (): JSX.Element => {
+  let userInfo = useSelector<ReduxStoreReducers, UserDataState["userData"]>(({UserReducer}) => UserReducer.userData)
+  let userData = userInfo[0];
+
   const [text, setText] = useState("");
 
   let textChange = (evt) => {
@@ -51,7 +48,8 @@ let SendComment = (): JSX.Element => {
   }
 
   let sendCommentInfo = async (): Promise<void> => {
-    const commentToSend = { "comment": text }
+    const username = (userData) ? userData.user.username : "Guest";
+    const commentToSend = { "username": username, "comment": text };
     await axios.post('https://peaceful-ocean-59292.herokuapp.com/Under100/add', commentToSend)
     window.location.href = "/"
   }
@@ -67,7 +65,7 @@ let SendComment = (): JSX.Element => {
   </div>
 }
 
-let Comment = ({ comment, dateCreated }: commentTypes): JSX.Element => {
+let Comment = ({ username, comment, dateCreated }: commentTypes): JSX.Element => {
   let timeAgoText = timeAgo(new Date(dateCreated))
 
   return <div className="Comment">
@@ -75,7 +73,7 @@ let Comment = ({ comment, dateCreated }: commentTypes): JSX.Element => {
     <div className="FlexRow">
       <img src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.30497-1/cp0/c18.0.60.60a/p60x60/84241059_189132118950875_4138507100605120512_n.jpg?_nc_cat=1&_nc_sid=7206a8&_nc_ohc=rf0c5sOmIdkAX_wev0c&_nc_ht=scontent.fphx1-2.fna&_nc_tp=27&oh=acbd5ab3ac9220de16362831557c4f28&oe=5FA73D73" alt="Guest"/>
       <div className="FlexColumn">
-        <h4>Guest <span>{timeAgoText}</span></h4>
+        <h4>{username} <span>{timeAgoText}</span></h4>
         <p>{comment}</p>
       </div>
     </div>
