@@ -27,9 +27,9 @@ let NavBar = () => {
 
   return <div className="NavBar">
     <div className="FlexAlign">
-      <a href="http://under-120.bestbudgetphones.technology">Phones under $120</a>
-      <a id="CurrentPage" href="http://under-100.bestbudgetphones.technology">Phones under $100</a>
-      <a href="http://under-50.bestbudgetphones.technology">Phones under $50</a>
+      <a href="http://Tonymndz.github.io/Budget-Phones/">Phones under $120</a>
+      <a id="CurrentPage" href="http://Tonymndz.github.io/Budget-Phones-under-100/">Phones under $100</a>
+      <a href="http://Tonymndz.github.io/Budget-Phones-under-50/">Phones under $50</a>
       {displayButton()}
       <PopUpModal displayModal={isModalOpen} closeModal={closeModal} />
     </div>
