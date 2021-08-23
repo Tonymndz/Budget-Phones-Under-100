@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Budget-Phones-Under-100/static/css/main.f0a52978.chunk.css",
-    "main.js": "/Budget-Phones-Under-100/static/js/main.0ff53ea6.chunk.js",
-    "main.js.map": "/Budget-Phones-Under-100/static/js/main.0ff53ea6.chunk.js.map",
-    "runtime-main.js": "/Budget-Phones-Under-100/static/js/runtime-main.4fa368e1.js",
-    "runtime-main.js.map": "/Budget-Phones-Under-100/static/js/runtime-main.4fa368e1.js.map",
-    "static/js/2.eecdbb1e.chunk.js": "/Budget-Phones-Under-100/static/js/2.eecdbb1e.chunk.js",
-    "static/js/2.eecdbb1e.chunk.js.map": "/Budget-Phones-Under-100/static/js/2.eecdbb1e.chunk.js.map",
-    "index.html": "/Budget-Phones-Under-100/index.html",
-    "precache-manifest.7eec175b763e285c2ef00e7693f8e2a4.js": "/Budget-Phones-Under-100/precache-manifest.7eec175b763e285c2ef00e7693f8e2a4.js",
-    "service-worker.js": "/Budget-Phones-Under-100/service-worker.js",
-    "static/css/main.f0a52978.chunk.css.map": "/Budget-Phones-Under-100/static/css/main.f0a52978.chunk.css.map",
-    "static/js/2.eecdbb1e.chunk.js.LICENSE.txt": "/Budget-Phones-Under-100/static/js/2.eecdbb1e.chunk.js.LICENSE.txt"
+    "main.css": "/budget-phones-under-100/static/css/main.f0a52978.chunk.css",
+    "main.js": "/budget-phones-under-100/static/js/main.d63c804c.chunk.js",
+    "main.js.map": "/budget-phones-under-100/static/js/main.d63c804c.chunk.js.map",
+    "runtime-main.js": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js",
+    "runtime-main.js.map": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js.map",
+    "static/js/2.eecdbb1e.chunk.js": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js",
+    "static/js/2.eecdbb1e.chunk.js.map": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js.map",
+    "index.html": "/budget-phones-under-100/index.html",
+    "precache-manifest.3744bb480d82406fcaccbfaeb38a17a1.js": "/budget-phones-under-100/precache-manifest.3744bb480d82406fcaccbfaeb38a17a1.js",
+    "service-worker.js": "/budget-phones-under-100/service-worker.js",
+    "static/css/main.f0a52978.chunk.css.map": "/budget-phones-under-100/static/css/main.f0a52978.chunk.css.map",
+    "static/js/2.eecdbb1e.chunk.js.LICENSE.txt": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fa368e1.js",
+    "static/js/runtime-main.e12e9579.js",
     "static/js/2.eecdbb1e.chunk.js",
     "static/css/main.f0a52978.chunk.css",
-    "static/js/main.0ff53ea6.chunk.js"
+    "static/js/main.d63c804c.chunk.js"
   ]
 }
