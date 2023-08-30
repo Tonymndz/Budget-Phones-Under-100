@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/budget-phones-under-100/static/css/main.f0a52978.chunk.css",
-    "main.js": "/budget-phones-under-100/static/js/main.d63c804c.chunk.js",
-    "main.js.map": "/budget-phones-under-100/static/js/main.d63c804c.chunk.js.map",
+    "main.css": "/budget-phones-under-100/static/css/main.02bd4eee.chunk.css",
+    "main.js": "/budget-phones-under-100/static/js/main.c79bf867.chunk.js",
+    "main.js.map": "/budget-phones-under-100/static/js/main.c79bf867.chunk.js.map",
     "runtime-main.js": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js",
     "runtime-main.js.map": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js.map",
-    "static/js/2.eecdbb1e.chunk.js": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js",
-    "static/js/2.eecdbb1e.chunk.js.map": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js.map",
+    "static/js/2.ef50b10d.chunk.js": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js",
+    "static/js/2.ef50b10d.chunk.js.map": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js.map",
     "index.html": "/budget-phones-under-100/index.html",
-    "precache-manifest.3744bb480d82406fcaccbfaeb38a17a1.js": "/budget-phones-under-100/precache-manifest.3744bb480d82406fcaccbfaeb38a17a1.js",
+    "precache-manifest.0555c0d0bd37fa593794d70b9724ceac.js": "/budget-phones-under-100/precache-manifest.0555c0d0bd37fa593794d70b9724ceac.js",
     "service-worker.js": "/budget-phones-under-100/service-worker.js",
-    "static/css/main.f0a52978.chunk.css.map": "/budget-phones-under-100/static/css/main.f0a52978.chunk.css.map",
-    "static/js/2.eecdbb1e.chunk.js.LICENSE.txt": "/budget-phones-under-100/static/js/2.eecdbb1e.chunk.js.LICENSE.txt"
+    "static/css/main.02bd4eee.chunk.css.map": "/budget-phones-under-100/static/css/main.02bd4eee.chunk.css.map",
+    "static/js/2.ef50b10d.chunk.js.LICENSE.txt": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js.LICENSE.txt",
+    "static/media/LG_G6.jpg": "/budget-phones-under-100/static/media/LG_G6.abeb1bcd.jpg",
+    "static/media/Samsung-Galaxy-Note-4.jpg": "/budget-phones-under-100/static/media/Samsung-Galaxy-Note-4.447aea44.jpg",
+    "static/media/Samsung-Galaxy-S7.jpg": "/budget-phones-under-100/static/media/Samsung-Galaxy-S7.e6e36197.jpg",
+    "static/media/Samsung_Galaxy_A6.jpg": "/budget-phones-under-100/static/media/Samsung_Galaxy_A6.f4835f32.jpg",
+    "static/media/google-pixel-2-xl-vs-pixel-xl-aa-4-of-11.jpg": "/budget-phones-under-100/static/media/google-pixel-2-xl-vs-pixel-xl-aa-4-of-11.59b57849.jpg",
+    "static/media/organized-phones.jpg": "/budget-phones-under-100/static/media/organized-phones.e232c776.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e12e9579.js",
-    "static/js/2.eecdbb1e.chunk.js",
-    "static/css/main.f0a52978.chunk.css",
-    "static/js/main.d63c804c.chunk.js"
+    "static/js/2.ef50b10d.chunk.js",
+    "static/css/main.02bd4eee.chunk.css",
+    "static/js/main.c79bf867.chunk.js"
   ]
 }
