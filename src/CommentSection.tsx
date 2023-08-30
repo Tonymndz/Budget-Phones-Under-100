@@ -51,7 +51,7 @@ let SendComment = (): JSX.Element => {
   let sendCommentInfo = async (): Promise<void> => {
     const username = (userData) ? userData.user.username : "Guest";
     const commentToSend = { "username": username, "comment": text };
-    await axios.post('https://peaceful-ocean-59292.herokuapp.com/Under100/add', commentToSend)
+    await axios.post('https://pink-strange-badger.cyclic.cloud/Under100/add', commentToSend)
     window.location.href = "/"
   }
 

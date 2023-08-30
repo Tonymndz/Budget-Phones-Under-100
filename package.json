@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Tonymndz.github.io/Budget-Phones-Under-100/",
+  "homepage": "http://Tonymndz.github.io/budget-phones-under-100/",
   "name": "budget-phones-under-100",
   "version": "0.1.0",
   "private": true,
@@ -22,10 +22,10 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
