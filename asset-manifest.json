@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/budget-phones-under-100/static/css/main.02bd4eee.chunk.css",
-    "main.js": "/budget-phones-under-100/static/js/main.c79bf867.chunk.js",
-    "main.js.map": "/budget-phones-under-100/static/js/main.c79bf867.chunk.js.map",
+    "main.js": "/budget-phones-under-100/static/js/main.995bfad0.chunk.js",
+    "main.js.map": "/budget-phones-under-100/static/js/main.995bfad0.chunk.js.map",
     "runtime-main.js": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js",
     "runtime-main.js.map": "/budget-phones-under-100/static/js/runtime-main.e12e9579.js.map",
     "static/js/2.ef50b10d.chunk.js": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js",
     "static/js/2.ef50b10d.chunk.js.map": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js.map",
     "index.html": "/budget-phones-under-100/index.html",
-    "precache-manifest.0555c0d0bd37fa593794d70b9724ceac.js": "/budget-phones-under-100/precache-manifest.0555c0d0bd37fa593794d70b9724ceac.js",
+    "precache-manifest.bc24a02a352c2366799c1e8a0725d688.js": "/budget-phones-under-100/precache-manifest.bc24a02a352c2366799c1e8a0725d688.js",
     "service-worker.js": "/budget-phones-under-100/service-worker.js",
     "static/css/main.02bd4eee.chunk.css.map": "/budget-phones-under-100/static/css/main.02bd4eee.chunk.css.map",
     "static/js/2.ef50b10d.chunk.js.LICENSE.txt": "/budget-phones-under-100/static/js/2.ef50b10d.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.e12e9579.js",
     "static/js/2.ef50b10d.chunk.js",
     "static/css/main.02bd4eee.chunk.css",
-    "static/js/main.c79bf867.chunk.js"
+    "static/js/main.995bfad0.chunk.js"
   ]
 }
